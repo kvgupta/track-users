@@ -1,0 +1,62 @@
+.otpcontainer {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.resend {
+  color: red;
+  margin: 25px;
+}
+
+.action {
+  text-align: center;
+}
+
+.formfield {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.formlabel {
+  color: #999;
+  margin-bottom: 15px;
+}
+
+.forminput {
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  min-width: 215px;
+}
+
+.cancel,
+.register {
+  color: #0366d6;
+  font-size: 14px;
+  margin-left: 20px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.register {
+  position: absolute;
+  right: 0;
+  margin: 10px 50px 0 0;
+}
+
+.submit {
+  color: #0366d6;
+  cursor: pointer;
+  font-size: 14px;
+  background: #fff;
+  padding: 5px 30px;
+  border: 1px solid #efefef;
+  border-radius: 15px;
+}
+
+.cancel {
+  position: absolute;
+  bottom: 368px;
+  right: 50px;
+}

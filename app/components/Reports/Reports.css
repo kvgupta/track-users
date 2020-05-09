@@ -1,0 +1,46 @@
+.container {
+  margin: 25px 75px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #999;
+  margin: 0;
+}
+
+.btn {
+  color: #0366d6;
+  cursor: pointer;
+  font-size: 14px;
+  background: #fff;
+  padding: 5px 30px;
+  border: 1px solid #efefef;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.table th,
+.table td {
+  border-bottom: 2px solid #e8e8e9;
+  padding: 12px;
+  font-size: 14px;
+  text-align: left;
+}
+.table th {
+  border-bottom: 4px solid #e8e8e9;
+}
+.table td {
+  font-weight: 400;
+  border-right: none;
+}

@@ -1,0 +1,11 @@
+{
+  "REGISTER": "/register",
+  "COUNTER": "/counter",
+  "HOME": "/home",
+  "OTP": "/otp",
+  "OTPVERIFICATION": "/otpverification",
+  "UPLOAD": "/upload",
+  "REPORTS": "/reports",
+  "LOGIN": "/login",
+  "FORGOT": "/"
+}

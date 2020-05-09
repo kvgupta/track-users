@@ -1,0 +1,82 @@
+.otpcontainer {
+  margin: 40px;
+}
+
+.verifyotp {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.resend {
+  display: flex;
+  align-items: center;
+}
+
+.resend h6 {
+  color: red;
+  margin: 0 10px 0 0;
+}
+
+.formfield {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.formlabel {
+  color: #999;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.forminput {
+  color: #999;
+  margin: 0;
+}
+
+.cancel,
+.login {
+  color: #0366d6;
+  font-size: 14px;
+  margin-left: 20px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.login {
+  position: absolute;
+  right: 0;
+  margin: 0 50px 0 0;
+}
+
+.submit {
+  color: #0366d6;
+  cursor: pointer;
+  font-size: 14px;
+  background: #fff;
+  padding: 5px 30px;
+  border: 1px solid #efefef;
+  border-radius: 15px;
+}
+
+.cancel {
+  position: absolute;
+  bottom: 380px;
+  right: 50px;
+}
+
+.otpForm {
+  margin-top: 20px;
+}
+
+.otpForm .formlabel {
+  display: block;
+  margin: 10px 0;
+}
+
+.otpForm .forminput {
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  min-width: 215px;
+  margin-bottom: 15px;
+}

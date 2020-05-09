@@ -1,0 +1,59 @@
+.container {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.background {
+  background-color: red;
+}
+.container h2 {
+  font-size: 5rem;
+}
+
+.action {
+  text-align: right;
+}
+
+.formfield {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.formlabel {
+  color: #999;
+  margin-right: 30px;
+}
+
+.forminput {
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  min-width: 215px;
+  width: 100%;
+}
+
+.forgotpassword,
+.register {
+  color: #0366d6;
+  font-size: 14px;
+  margin-left: 20px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.register {
+  position: absolute;
+  right: 0;
+  margin: 10px 50px 0 0;
+}
+
+.submit {
+  color: #0366d6;
+  cursor: pointer;
+  font-size: 14px;
+  background: #fff;
+  padding: 5px 30px;
+  border: 1px solid #efefef;
+  border-radius: 15px;
+}

@@ -1,0 +1,60 @@
+.container {
+  margin: 25px;
+}
+
+.container h2 {
+  font-size: 5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #999;
+  margin: 0;
+}
+
+.formfield {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.formlabel {
+  color: #999;
+  margin-right: 10px;
+  min-width: 130px;
+}
+
+.forminput {
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  min-width: 250px;
+}
+
+.forgotpassword,
+.register {
+  color: #0366d6;
+  font-size: 14px;
+  margin-left: 20px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.submit,
+.cancel {
+  color: #0366d6;
+  cursor: pointer;
+  font-size: 14px;
+  background: #fff;
+  padding: 5px 30px;
+  border: 1px solid #efefef;
+  border-radius: 15px;
+}
+.cancel {
+  margin-left: 214px;
+}
